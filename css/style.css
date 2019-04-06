@@ -575,7 +575,6 @@ a, a:hover {
     font-style: normal;
     letter-spacing: -0.02em;
     line-height: 1.5em;
-    /*background: url(../images/main_x.png) left center/ 70px no-repeat;*/
     padding: 25px 0 25px 90px;
 }
 
@@ -1921,7 +1920,6 @@ a, a:hover {
 
     .akitennisclass79 {
         font-size: 1.8rem;
-        background: url(../images/main_x.png) left center/ 50px no-repeat;
         padding: 25px 0 25px 60px;
     }
 
@@ -2312,7 +2310,6 @@ a, a:hover {
 
     .akitennisclass79 {
         font-size: 1.7rem;
-        background: url(../images/main_x.png) left center/ 50px no-repeat;
         padding: 15px 0 15px 60px;
     }
 
@@ -3219,6 +3216,13 @@ a, a:hover {
     .akitennisclass164 {
         padding: 8% 4%;
         width: 50% !important;
+    }
+}
+@media (max-width: 768px) {
+
+    .akitennisclass164 {
+        padding: 8% 4%;
+        width: 100% !important;
     }
 }
 
