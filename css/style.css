@@ -123,7 +123,7 @@ a, a:hover {
 }
 
 .colored-red {
-    color:#d43942;
+    color: #d43942;
     text-shadow: 2px 2px 2px white;
 }
 
@@ -582,7 +582,7 @@ a, a:hover {
 }
 
 .akitennisclass165 {
-    background: rgba(255,255,255,0.8);
+    background: rgba(255, 255, 255, 0.8);
     box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -622,12 +622,12 @@ a, a:hover {
 
 .akitennisclass176 {
     background: url(../images/main_itr_bg1.jpg) center/cover no-repeat;
-    background: linear-gradient( 135deg, rgba(72, 60, 44, 0.1), rgba(72, 60, 44, 0.8)),url(../images/main_itr_bg1.jpg) center/cover no-repeat;
+    background: linear-gradient(135deg, rgba(72, 60, 44, 0.1), rgba(72, 60, 44, 0.8)), url(../images/main_itr_bg1.jpg) center/cover no-repeat;
 }
 
 .akitennisclass178 {
     background: url(../images/main_itr_bg2.jpg) center/cover no-repeat;
-    background: linear-gradient( 135deg, rgba(72, 60, 44, 0.1), rgba(72, 60, 44, 0.8)),url(../images/main_itr_bg2.jpg) center/cover no-repeat;
+    background: linear-gradient(135deg, rgba(72, 60, 44, 0.1), rgba(72, 60, 44, 0.8)), url(../images/main_itr_bg2.jpg) center/cover no-repeat;
 
 }
 
@@ -676,12 +676,12 @@ a, a:hover {
     background: #fff;
 }
 
-.p3_box li:nth-child(3){
+.p3_box li:nth-child(3) {
     margin-top: 1%;
     margin-right: 0;
 }
 
-.p3_box li:nth-child(6){
+.p3_box li:nth-child(6) {
     margin-top: 1%;
     margin-right: 0;
 
@@ -1051,6 +1051,10 @@ a, a:hover {
     float: left;
     margin: 0 4% 0 0;
     height: auto;
+}
+.akitennisclass771{
+    float: right;
+
 }
 
 .akitennisclass114 {
@@ -1555,7 +1559,8 @@ a, a:hover {
     width: 100%;
     margin: 0;
     float: none;
-    background: #333;
+    background: -webkit-linear-gradient(45deg, #ff693f, #bf1738);
+    background: linear-gradient(45deg, #ff693f, #bf1738);
     padding: 20px 10px;
     text-align: center;
     box-sizing: border-box;
@@ -1572,6 +1577,7 @@ a, a:hover {
     padding: 0 0 0 30px;
     display: table;
     margin: auto;
+    color: white;
 }
 
 .akitennisclass148_tel {
@@ -1934,7 +1940,7 @@ a, a:hover {
 
     .akitennisclass164 {
         padding: 8% 4%;
-        width: 100% !important;
+        width: 50% !important;
     }
 
     .akitennisclass182 {
@@ -3196,11 +3202,23 @@ a, a:hover {
 .under768 {
     display: none;
 }
-@media (max-width: 768px){
-.under768 {
-    display: block;
-}
-    .above768{
+
+@media (max-width: 768px) {
+    .under768 {
+        display: block;
+    }
+
+    .above768 {
         display: none;
     }
+
+    .akitennisclass164 {
+        padding: 8% 4%;
+        width: 50% !important;
+    }
+}
+.akitennisclass2235 {
+    color: #111;
+    background: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.2);
 }
