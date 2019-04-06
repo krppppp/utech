@@ -122,6 +122,11 @@ a, a:hover {
     color: #fff;
 }
 
+.colored-red {
+    color:#d43942;
+    text-shadow: 2px 2px 2px white;
+}
+
 .akitennisclass240 {
     display: block;
 }
@@ -247,7 +252,7 @@ a, a:hover {
 }
 
 .akitennisclass208 {
-    color: #e12632;
+    color: #d43942;
 }
 
 .akitennisclass226 {
@@ -395,7 +400,7 @@ a, a:hover {
 }
 
 .akitennisclass170 {
-    background: #e8e8e8;
+    background: #fff;
 }
 
 .akitennisclass193 {
@@ -503,6 +508,11 @@ a, a:hover {
     padding: 4% 0 5% 0;
 }
 
+.akitennisclass1185 {
+    padding: 4% 0 5% 0;
+    background: #f3f3f3;
+}
+
 /*banner*/
 .akitennisclass188 {
     padding: 2% 0;
@@ -517,7 +527,7 @@ a, a:hover {
 /*main*/
 .akitennisclass210 {
     background: url(../images/main_bg.jpg) center/cover no-repeat;
-    padding: 5% 0 15% 0;
+    padding: 5% 0 20% 0;
 }
 
 .akitennisclass103 {
@@ -612,10 +622,13 @@ a, a:hover {
 
 .akitennisclass176 {
     background: url(../images/main_itr_bg1.jpg) center/cover no-repeat;
+    background: linear-gradient( 135deg, rgba(72, 60, 44, 0.1), rgba(72, 60, 44, 0.8)),url(../images/main_itr_bg1.jpg) center/cover no-repeat;
 }
 
 .akitennisclass178 {
     background: url(../images/main_itr_bg2.jpg) center/cover no-repeat;
+    background: linear-gradient( 135deg, rgba(72, 60, 44, 0.1), rgba(72, 60, 44, 0.8)),url(../images/main_itr_bg2.jpg) center/cover no-repeat;
+
 }
 
 .akitennisclass129 {
@@ -657,14 +670,14 @@ a, a:hover {
 }
 
 .p3_box li {
-    width: 31.6666%;
+    width: 30%;
     float: left;
-    margin: 0 2.5% 0 0;
+    margin: 1% 2.5% 0 0;
     background: #fff;
 }
 
 .p3_box li:last-child {
-    margin: 0;
+    margin-top: 1%;
 }
 
 .akitennisclass134 {
@@ -681,6 +694,12 @@ a, a:hover {
     font-size: 6.6rem;
     line-height: 1em;
     top: -40px;
+    right: 40px;
+}
+
+.akitennisclass1163 {
+    bottom: -30px;
+    top: unset;
 }
 
 .akitennisclass160 {
@@ -688,14 +707,26 @@ a, a:hover {
 }
 
 .akitennisclass159 {
-    background-image: url(../images/main_point1.jpg);
+    background-image: url(../images/shutterstock_1067423849.jpg);
 }
 
 .akitennisclass158 {
-    background-image: url(../images/main_point2.jpg);
+    background-image: url(../images/shutterstock_189840770.jpg);
 }
 
 .akitennisclass157 {
+    background-image: url(../images/shutterstock_1060455440-min.jpg);
+}
+
+.akitennisclass1154 {
+    background-image: url(../images/main_point1.jpg);
+}
+
+.akitennisclass1155 {
+    background-image: url(../images/main_point2.jpg);
+}
+
+.akitennisclass1156 {
     background-image: url(../images/main_point3.jpg);
 }
 
@@ -796,7 +827,7 @@ a, a:hover {
     line-height: 1em;
     padding: 0 0 8px 0;
     margin: 0 auto 8px auto;
-    border-bottom: 1px solid #e12632;
+    border-bottom: 1px solid #d43942;
 }
 
 /*why*/
@@ -824,14 +855,6 @@ a, a:hover {
     font-size: 4rem;
     padding: 6% 0 4% 0;
     line-height: 1em;
-}
-
-.akitennisclass197 {
-    background: url(../images/why1.png) left center/auto 100% no-repeat;
-}
-
-.akitennisclass195 {
-    background: url(../images/why2.png) left center/auto 100% no-repeat;
 }
 
 .akitennisclass155 {
@@ -1181,7 +1204,7 @@ a, a:hover {
 }
 
 .akitennisclass60 {
-    border-bottom: 1px solid #e12632;
+    border-bottom: 1px solid #d43942;
     line-height: 1em;
 }
 
@@ -1293,7 +1316,7 @@ a, a:hover {
     font-weight: 500;
     font-size: 2.1rem;
     line-height: 1em;
-    border-bottom: 1px solid #e12632;
+    border-bottom: 1px solid #d43942;
 }
 
 .akitennisclass32 {
@@ -1619,7 +1642,7 @@ a, a:hover {
 }
 
 .hissu {
-    background: #e12632;
+    background: #d43942;
 }
 
 .nini {
@@ -2054,7 +2077,7 @@ a, a:hover {
         float: none;
         padding: 10px 0 0 0;
         text-align: center;
-        border-top: 1px solid #e12632;
+        border-top: 1px solid #d43942;
     }
 
     .akitennisclass30 {
@@ -2360,7 +2383,7 @@ a, a:hover {
         line-height: 1em;
         padding: 0 0 8px 0;
         margin: 0 auto 8px auto;
-        border-bottom: 1px solid #e12632;
+        border-bottom: 1px solid #d43942;
     }
 
     .akitennisclass93 {
@@ -2723,7 +2746,7 @@ a, a:hover {
 
     /*main*/
     .akitennisclass210 {
-        padding: 4% 0 10% 0;
+        padding: 35% 0 5% 0;
     }
 
     .akitennisclass103 {
