@@ -379,10 +379,14 @@ a, a:hover {
     background: linear-gradient(45deg, #ffb49f, #df8b9b);
 }
 
+.akitennisclass1152 {
+    background: linear-gradient(45deg, #fff, grey);
+    color: #111;
+}
+
 .akitennisclass96 {
-    background: -moz-linear-gradient(60deg, #111, #666);
-    background: -webkit-linear-gradient(60deg, #111, #666);
-    background: linear-gradient(60deg, #111, #666);
+    background: -webkit-linear-gradient(45deg,#bf1738, #ff693f);
+    background: linear-gradient(45deg,#bf1738, #ff693f);
 }
 
 .akitennisclass52 {
@@ -3217,6 +3221,7 @@ a, a:hover {
         width: 50% !important;
     }
 }
+
 .akitennisclass2235 {
     color: #111;
     background: #fff;
