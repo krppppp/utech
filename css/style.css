@@ -3192,3 +3192,15 @@ a, a:hover {
         font-size: 1.7rem;
     }
 }
+
+.under768 {
+    display: none;
+}
+@media (max-width: 768px){
+.under768 {
+    display: block;
+}
+    .above768{
+        display: none;
+    }
+}
