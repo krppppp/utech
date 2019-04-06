@@ -576,7 +576,7 @@ a, a:hover {
 }
 
 .akitennisclass200 {
-    padding: 0 0 20px 5%;
+    padding: 0 2% 20px;
     margin: -10% 0 3.5% 0;
     z-index: 3;
 }
@@ -649,7 +649,7 @@ a, a:hover {
 .akitennisclass127 {
     font-size: 1.5rem;
     line-height: 1.35em;
-    text-align: center;
+    text-align: left;
 }
 
 .akitennisclass177 {
@@ -670,18 +670,26 @@ a, a:hover {
 }
 
 .p3_box li {
-    width: 30%;
+    width: 32.5%;
     float: left;
-    margin: 1% 2.5% 0 0;
+    margin: 1% 1% 0 0;
     background: #fff;
 }
 
-.p3_box li:last-child {
+.p3_box li:nth-child(3){
     margin-top: 1%;
+    margin-right: 0;
+}
+
+.p3_box li:nth-child(6){
+    margin-top: 1%;
+    margin-right: 0;
+
 }
 
 .akitennisclass134 {
     padding: 8% 7%;
+    height: 310px;
 }
 
 .akitennisclass161 {
@@ -1926,7 +1934,7 @@ a, a:hover {
 
     .akitennisclass164 {
         padding: 8% 4%;
-        width: 50% !important;
+        width: 100% !important;
     }
 
     .akitennisclass182 {
@@ -1935,6 +1943,7 @@ a, a:hover {
 
     .akitennisclass134 {
         padding: 11% 9%;
+        height: 370px;
     }
 
     /*lineup*/
@@ -2759,8 +2768,8 @@ a, a:hover {
 
     .akitennisclass79 {
         font-size: 1.3rem;
-        background: url(../images/main_x_sp.png) left center/ 40px no-repeat;
-        padding: 10px 0 10px 50px;
+        background: unset;
+        padding: 10px 0 10px 10px;
         font-weight: 600;
     }
 
@@ -2819,6 +2828,7 @@ a, a:hover {
 
     .akitennisclass134 {
         padding: 9% 7% 7% 7%;
+        height: ;
     }
 
     .akitennisclass161 {
