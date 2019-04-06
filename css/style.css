@@ -1,0 +1,3161 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:500,500i,600,600i|Barlow+Semi+Condensed:300i,400,500,500i,600,600i|Noto+Sans+JP:400,500,700');
+
+html {
+    overflow-y: scroll;
+    font-size: 10px;
+    height: 100%;
+}
+
+body, td, th {
+    line-height: 1.8em;
+    color: #111;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: 'Barlow Semi Condensed', 'Noto Sans JP', 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', sans-serif;
+    padding: 78px 0 0 0;
+    letter-spacing: 0.05em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+p, ul, ol {
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+}
+
+.cl:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.soon {
+    opacity: 0.2;
+}
+
+.none {
+    display: none;
+}
+
+div {
+    padding: 0;
+    margin: 0;
+    line-height: 1em;;
+}
+
+img {
+    border: 0;
+    border-style: none;
+    width: 100%;
+    -ms-interpolation-mode: bicubic;
+    -webkit-interpolation-mode: bicubic;
+}
+
+a img:hover {
+    opacity: 0.7;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -o-transition: 0.7s;
+    transition: 0.7s;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+a, a:hover {
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -o-transition: 0.7s;
+    transition: 0.7s;
+}
+
+::selection {
+    background: #000;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #000;
+    color: #fff;
+}
+
+.akitennisclass240 {
+    display: block;
+}
+
+.sp {
+    display: none;
+}
+
+.akitennisclass190 {
+    display: block;
+}
+
+.akitennisclass203 {
+    display: none;
+}
+
+.in, .akitennisclass227 {
+    padding: 0 5%;
+    margin: auto;
+    max-width: 1600px;
+    position: relative;
+}
+
+.tr {
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -o-transition: 0.7s;
+    transition: 0.7s;
+}
+
+.tr04 {
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.cl:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+/*スクロールのエフェクト*/
+#akitennisid1 {
+    animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+/* 画面外にいる状態 */
+.fi {
+    opacity: 0;
+    transform: translate(0, 40px);
+    transition: all 1.5s;
+}
+
+.fi.scrollin {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.fi2 {
+    opacity: 0;
+    transform: translate(-50px, 0);
+    transition: all 1s;
+}
+
+.fi2.scrollin {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.fi3 {
+    opacity: 0;
+    transform: translate(-50px, 0);
+    transition: all 1.5s;
+}
+
+.fi3.scrollin {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.akitennisclass112 {
+    opacity: 0 !important;
+    -webkit-animation: fadeIn 2s ease 0.5s 1 forwards;
+    animation: fadeIn 2s ease 0.5s 1 forwards;
+}
+
+/*共通tips*/
+.akitennisclass241 {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.akitennisclass202 {
+    position: relative;
+}
+
+.akitennisclass196 {
+    position: absolute;
+}
+
+.akitennisclass235 {
+    color: #fff;
+}
+
+.akitennisclass208 {
+    color: #e12632;
+}
+
+.akitennisclass226 {
+    color: #ff4665;
+}
+
+.akitennisclass187 {
+    color: #5dbdcb;
+}
+
+.akitennisclass224, .akitennisclass234, .akitennisclass233, .akitennisclass232, .f17, .akitennisclass228, .f19, .f20 {
+    line-height: 1.75em;
+}
+
+.akitennisclass224 {
+    font-size: 1.3rem;
+}
+
+.akitennisclass234 {
+    font-size: 1.4rem;
+}
+
+.akitennisclass233 {
+    font-size: 1.5rem;
+}
+
+.akitennisclass232 {
+    font-size: 1.6rem;
+}
+
+.f17 {
+    font-size: 1.7rem;
+}
+
+.akitennisclass228 {
+    font-size: 1.8rem;
+}
+
+.f19 {
+    font-size: 1.9rem;
+}
+
+.f20 {
+    font-size: 2rem;
+}
+
+.akitennisclass237 {
+    font-weight: 300;
+}
+
+.akitennisclass238 {
+    font-weight: 500;
+}
+
+.akitennisclass239 {
+    font-weight: 600;
+}
+
+.akitennisclass192 {
+    letter-spacing: 0.07em;
+}
+
+.akitennisclass220 {
+    letter-spacing: 0.1em;
+}
+
+.akitennisclass194 {
+    letter-spacing: 0.15em;
+}
+
+.ls02 {
+    letter-spacing: 0.2em;
+}
+
+.akitennisclass219 {
+    font-style: italic;
+}
+
+.akitennisclass230 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.shdimg {
+    -webkit-filter: drop-shadow(0 0 15px rgba(0, 0, 0, 0.5));
+}
+
+.akitennisclass172 {
+    -webkit-filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.2));
+}
+
+.shdtx {
+    text-shadow: 0 0 10px rgba(0, 0, 0, .9);
+}
+
+.akitennisclass217 {
+    width: 100%;
+    display: block;
+}
+
+.akitennisclass231 {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+.ma00 {
+    border-radius: 800px;
+    -webkit-border-radius: 800px;
+    -moz-border-radius: 800px;
+}
+
+.akitennisclass152 {
+    background: -moz-linear-gradient(45deg, #ff693f, #bf1738);
+    background: -webkit-linear-gradient(45deg, #ff693f, #bf1738);
+    background: linear-gradient(45deg, #ff693f, #bf1738);
+}
+
+.akitennisclass152_h {
+    background: -moz-linear-gradient(45deg, #ffb49f, #df8b9b);
+    background: -webkit-linear-gradient(45deg, #ffb49f, #df8b9b);
+    background: linear-gradient(45deg, #ffb49f, #df8b9b);
+}
+
+.akitennisclass96 {
+    background: -moz-linear-gradient(60deg, #111, #666);
+    background: -webkit-linear-gradient(60deg, #111, #666);
+    background: linear-gradient(60deg, #111, #666);
+}
+
+.akitennisclass52 {
+    background: -moz-linear-gradient(60deg, #e0f1fb, #f5f0f0);
+    background: -webkit-linear-gradient(60deg, #e0f1fb, #f5f0f0);
+    background: linear-gradient(60deg, #e0f1fb, #f5f0f0);
+}
+
+.akitennisclass215 {
+    background: #fff;
+}
+
+.akitennisclass214 {
+    background: #111;
+}
+
+.akitennisclass170 {
+    background: #e8e8e8;
+}
+
+.akitennisclass193 {
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+    box-sizing: border-box;
+}
+
+/*header*/
+.header {
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.smaller {
+    padding: 14px 0;
+}
+
+.akitennisclass213 {
+    width: 170px;
+    float: left;
+}
+
+.smaller .akitennisclass213 {
+    width: 100px;
+}
+
+.hd_nav {
+    float: right;
+}
+
+.hd_mn {
+    float: left;
+    padding: 5px 0;
+}
+
+.hd_mn li {
+    background: url(../images/naname_grd.png) right center/auto 100% no-repeat;
+    float: left;
+    padding: 0 25px 0 0;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 10px 0 0;
+    font-size: 1.35rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+.hd_mn li:last-child {
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hd_mail {
+    height: 30px;
+    float: left;
+    margin: 5px 0 0 25px;
+    padding: 0 25px;
+}
+
+.hd_mail p {
+    line-height: 30px;
+    font-size: 1.4rem;
+    padding: 0 0 0 25px;
+    background: url(../images/icon_mail.png) left center/15px no-repeat;
+}
+
+/*cont共通*/
+.akitennisclass153 {
+    text-align: center;
+    display: table;
+    margin: 0 auto 4% auto;
+    padding: 17px 0 0 0;
+    font-size: 6rem;
+    letter-spacing: 0.13em;
+    line-height: 1em;
+}
+
+.akitennisclass153 span {
+    font-size: 1.6rem;
+    display: block;
+    text-align: center;
+    line-height: 1em;
+    padding: 10px 0 0 0;
+    font-style: normal;
+}
+
+.akitennisclass130 {
+    border-top: 8px solid #fff;
+}
+
+.akitennisclass131 {
+    border-top: 8px solid #111;
+}
+
+.akitennisclass185 {
+    padding: 4% 0 5% 0;
+}
+
+/*banner*/
+.akitennisclass188 {
+    padding: 2% 0;
+    background: url(../images/sha.png) center/5px repeat;
+    text-align: center !important;
+}
+
+.akitennisclass188 img {
+    max-width: 1100px;
+}
+
+/*main*/
+.akitennisclass210 {
+    background: url(../images/main_bg.jpg) center/cover no-repeat;
+    padding: 5% 0 15% 0;
+}
+
+.akitennisclass103 {
+    height: 100%;
+    width: auto;
+    top: 0;
+    left: 0;
+    line-height: 0;
+    z-index: 1;
+}
+
+.akitennisclass103 img {
+    height: 100%;
+    width: auto;
+    line-height: 0;
+}
+
+.akitennisclass166 {
+    padding: 0 5%;
+    display: table;
+    z-index: 2;
+    margin: auto;
+}
+
+.akitennisclass128 {
+    max-width: 400px;
+    width: 28%;
+    float: left;
+}
+
+.akitennisclass132 {
+    float: left;
+    font-size: 11rem;
+    line-height: 1em;
+    margin: 0 0 0 -3%;
+}
+
+.akitennisclass79 {
+    font-size: 2.2rem;
+    display: block;
+    font-style: normal;
+    letter-spacing: -0.02em;
+    line-height: 1.5em;
+    /*background: url(../images/main_x.png) left center/ 70px no-repeat;*/
+    padding: 25px 0 25px 90px;
+}
+
+.akitennisclass200 {
+    padding: 0 0 20px 5%;
+    margin: -10% 0 3.5% 0;
+    z-index: 3;
+}
+
+.akitennisclass165 {
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.akitennisclass165 li {
+    width: 33.333%;
+    float: left;
+}
+
+.akitennisclass180 {
+    padding: 5% 3%;
+}
+
+.akitennisclass133 {
+    margin: 0 0 20px 0;
+}
+
+.akitennisclass57 {
+    width: 42%;
+    float: left;
+    border-right: 1px solid #fff;
+    margin: 0 6% 0 0;
+    padding: 0 6% 0 0;
+    max-width: 250px;
+}
+
+.akitennisclass87 {
+    width: 46%;
+    display: table;
+    vertical-align: middle;
+    font-size: 1.8rem;
+    line-height: inherit;
+}
+
+.akitennisclass164 {
+    padding: 4%;
+}
+
+.akitennisclass176 {
+    background: url(../images/main_itr_bg1.jpg) center/cover no-repeat;
+}
+
+.akitennisclass178 {
+    background: url(../images/main_itr_bg2.jpg) center/cover no-repeat;
+}
+
+.akitennisclass129 {
+    text-align: center;
+    font-size: 3.2rem;
+    line-height: 1.1em;
+    margin: 0 0 13px 0;
+}
+
+.akitennisclass129 span {
+    display: block;
+    font-size: 0.7em;
+    margin: 10px 0 0 0;
+    text-align: center;
+    line-height: 1em;
+}
+
+.akitennisclass127 {
+    font-size: 1.5rem;
+    line-height: 1.35em;
+    text-align: center;
+}
+
+.akitennisclass177 {
+    padding: 0 0 7% 0;
+}
+
+.akitennisclass182 {
+    font-size: 3.8rem;
+    line-height: 1.35em;
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+
+.akitennisclass162 {
+    line-height: 1.35em;
+    text-align: center;
+    margin: 0 0 3% 0;
+}
+
+.p3_box li {
+    width: 31.6666%;
+    float: left;
+    margin: 0 2.5% 0 0;
+    background: #fff;
+}
+
+.p3_box li:last-child {
+    margin: 0;
+}
+
+.akitennisclass134 {
+    padding: 8% 7%;
+}
+
+.akitennisclass161 {
+    font-size: 2.1rem;
+    line-height: 1.3em;
+    margin: 0 0 20px 0;
+}
+
+.akitennisclass163 {
+    font-size: 6.6rem;
+    line-height: 1em;
+    top: -40px;
+}
+
+.akitennisclass160 {
+    height: 20vw;
+}
+
+.akitennisclass159 {
+    background-image: url(../images/main_point1.jpg);
+}
+
+.akitennisclass158 {
+    background-image: url(../images/main_point2.jpg);
+}
+
+.akitennisclass157 {
+    background-image: url(../images/main_point3.jpg);
+}
+
+/*lineup*/
+.akitennisclass205, .akitennisclass221 {
+    width: 50%;
+    float: left;
+}
+
+.akitennisclass205 {
+    padding: 0 0 0 2%;
+}
+
+.akitennisclass221 {
+    padding: 0 2% 0 0;
+}
+
+.akitennisclass117 {
+    background: url(../images/linup_men.jpg) center/cover no-repeat;
+    height: 18vw;
+}
+
+.akitennisclass118 {
+    background: url(../images/linup_women.jpg) center/cover no-repeat;
+    height: 18vw;
+}
+
+.akitennisclass135 {
+    max-width: 800px;
+    float: right;
+    margin: 0 0 0 5%;
+    padding: 0 4% 0 0;
+}
+
+.akitennisclass136 {
+    max-width: 800px;
+    float: left;
+    margin: 0 5% 0 0;
+    padding: 0 0 0 4%;
+}
+
+.akitennisclass119 {
+    float: left;
+    width: 38%;
+    margin: -15% 5% 0 0;
+}
+
+.akitennisclass91 {
+    float: left;
+    width: 57%;
+    margin: 25px 0 0 0;
+}
+
+.akitennisclass81 {
+    font-size: 2.2rem;
+    line-height: 1em;
+    padding: 0 0 10px 0;
+}
+
+.akitennisclass82 {
+    font-size: 2.2rem;
+    line-height: 1.3em;
+    margin: 0 0 15px 0;
+}
+
+/*scene*/
+.akitennisclass126 {
+    margin: 0 0 5px 0;
+    padding: 0 0 3% 0;
+}
+
+.scne_box {
+    border-left: 1px solid #e5e5e5;
+}
+
+.scne_box li {
+    box-sizing: border-box;
+    border-right: 1px solid #e5e5e5;
+    width: 20%;
+    float: left;
+    padding: 0 2%;
+}
+
+.akitennisclass62 {
+}
+
+.akitennisclass93 {
+    font-size: 1.6rem;
+    line-height: 1em;
+    margin: 0 auto 25px auto;
+    text-align: center;
+}
+
+.akitennisclass93 span {
+    display: table;
+    text-align: center;
+    font-size: 2.8rem;
+    line-height: 1em;
+    padding: 0 0 8px 0;
+    margin: 0 auto 8px auto;
+    border-bottom: 1px solid #e12632;
+}
+
+/*why*/
+.akitennisclass156 {
+    font-size: 6.2rem;
+    text-align: center;
+    display: table;
+    margin: 0 auto 1% auto;
+    z-index: 1;
+    padding: 15px 0 15px 0;
+    line-height: 1.4em;
+}
+
+.akitennisclass56 {
+    background: url(../images/grd_h_bg.png) center bottom/ 100% 25px no-repeat;
+}
+
+.akitennisclass97 {
+    max-width: 800px;
+    margin: 0 auto 1% auto;
+    padding: 0 0 15px 0;
+}
+
+.akitennisclass121 {
+    font-size: 4rem;
+    padding: 6% 0 4% 0;
+    line-height: 1em;
+}
+
+.akitennisclass197 {
+    background: url(../images/why1.png) left center/auto 100% no-repeat;
+}
+
+.akitennisclass195 {
+    background: url(../images/why2.png) left center/auto 100% no-repeat;
+}
+
+.akitennisclass155 {
+    padding: 4% 2.5%;
+    margin: -15px 0 2% 0;
+}
+
+.akitennisclass85 {
+    padding: 0 0 2% 0;
+}
+
+.akitennisclass24 {
+    width: 53%;
+    margin: 0;
+    float: left;
+}
+
+.akitennisclass35 {
+    width: 43%;
+    margin: 0 0 0 4%;
+    float: left;
+}
+
+.akitennisclass33 {
+    font-size: 1.9rem;
+    line-height: 1em;
+    margin: 0 0 7px 0;
+}
+
+.akitennisclass23 {
+    font-size: 1.55rem;
+    line-height: 1.35em;
+    padding: 0 0 17px 25px;
+}
+
+.akitennisclass42 {
+    padding: 15px;
+}
+
+.akitennisclass43 {
+    font-size: 1.4rem;
+    padding: 0 0 12px 0;
+    line-height: 1em;
+}
+
+.akitennisclass36 li {
+    font-size: 1.3rem;
+    line-height: 1em;
+    margin: 0 4px 7px 0;
+    padding: 0 4px 0 0;
+    border-right: 1px solid #d1d1d1;
+    float: left;
+}
+
+.akitennisclass105 {
+    padding: 5.5% 0 0 0;
+}
+
+.akitennisclass88 {
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0 0 11px 0;
+    line-height: 1em;
+}
+
+.akitennisclass44 {
+    margin: 0 0 3.5% 0;
+}
+
+.akitennisclass77 {
+    display: table;
+    padding: 15px 40px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    margin: auto;
+    font-size: 2.6rem;
+    line-height: 1em;
+    z-index: 2;
+}
+
+.akitennisclass74 {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.akitennisclass44 span {
+    position: absolute;
+    background: #e5e5e5;
+    z-index: 1;
+    width: 100%;
+    height: 1px;
+    top: 50%;
+    left: 0;
+}
+
+.akitennisclass45 span {
+    background: #ccc;
+}
+
+.akitennisclass73 li {
+    width: 32.666%;
+    float: left;
+    padding: 0 2% 0 0;
+    margin: 0 2% 0 0;
+    border-right: 1px solid #e5e5e5;
+}
+
+.akitennisclass73 li:last-child {
+    width: 30.666%;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.akitennisclass39 {
+    width: 55%;
+    margin: 0 5% 0 0;
+    float: right;
+}
+
+.akitennisclass40 {
+    font-size: 2rem;
+    line-height: 1em;
+    margin: 0 0 18px 0;
+}
+
+.akitennisclass55 {
+    width: 40%;
+    margin: 0;
+    float: right;
+    text-align: center;
+}
+
+.akitennisclass55 img {
+    max-width: 130px;
+}
+
+.akitennisclass76 {
+    max-width: 900px;
+    margin: auto;
+}
+
+.akitennisclass16 {
+    width: 50%;
+    margin: 0 0 0 5%;
+    float: right;
+    text-align: center;
+}
+
+.akitennisclass16 p {
+    text-align: center;
+    padding: 5px 0 0 0;
+}
+
+.akitennisclass9 {
+    width: 45%;
+    margin: 0;
+    float: right;
+}
+
+.akitennisclass137 {
+    padding: 12px 0 0 0;
+    background: url(../images/why_triangle.png) center top/220px no-repeat;
+}
+
+.akitennisclass116 {
+    font-size: 2.8rem;
+    line-height: 1.2em;
+    padding: 0 0 22px 0;
+    text-align: center;
+}
+
+.akitennisclass115 {
+    max-width: 600px;
+    margin: auto;
+    padding: 0;
+}
+
+.akitennisclass138 {
+    padding: 5% 0;
+    margin: -2% 0 0 0;
+}
+
+.akitennisclass71 {
+    width: 48%;
+    float: left;
+    margin: 0 4% 0 0;
+    height: auto;
+}
+
+.akitennisclass114 {
+    background: url(../images/why_mn.jpg) center/cover no-repeat;
+}
+
+.akitennisclass113 {
+    background: url(../images/why_wmn.jpg) center/cover no-repeat;
+}
+
+.akitennisclass41 {
+    width: 48%;
+    float: left;
+}
+
+.akitennisclass66 {
+    max-width: 110px;
+    width: 30%;
+    padding: 0 0 25px 0;
+}
+
+.akitennisclass65 {
+    font-size: 2.65rem;
+    line-height: 1.4em;
+}
+
+.akitennisclass22 {
+    font-size: 9.5rem;
+    margin: -50px 0 0 -15px;
+    line-height: 1em;
+}
+
+.akitennisclass63 {
+    margin: 21px 0 0 0;
+    padding: 21px 0 0 0;
+}
+
+.akitennisclass63 span {
+    height: 1px;
+    width: 100px;
+    display: block;
+    top: 0;
+    left: 0;
+}
+
+.akitennisclass13 {
+    font-size: 2rem;
+    line-height: 1.4em;
+    padding: 0 0 15px 0;
+}
+
+.akitennisclass59 {
+    margin: 40px 0 0 0;
+    padding: 12px 20px;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.4em;
+}
+
+.akitennisclass150 {
+    max-width: 800px;
+    margin: auto;
+}
+
+.akitennisclass108 {
+}
+
+.akitennisclass108 li {
+    width: 49.5%;
+    margin: 0 1% 1% 0;
+    float: left;
+    padding: 1.5%;
+}
+
+.akitennisclass108 li:nth-child(even) {
+    margin: 0 0 1% 0;
+}
+
+.akitennisclass38 {
+    width: 30%;
+    float: left;
+    margin: 0 4% 0 0;
+    text-align: center;
+    line-height: 0;
+}
+
+.akitennisclass84 {
+    max-width: 100px;
+    line-height: 0;
+}
+
+.akitennisclass54 {
+    width: 100%;
+    float: none;
+    margin: 0 auto 15px auto;
+    max-width: 400px;
+}
+
+.akitennisclass25 {
+    width: 66%;
+    float: left;
+}
+
+.akitennisclass28 {
+    width: 100%;
+    float: none;
+}
+
+.akitennisclass25 p {
+    line-height: 1.55em !important;
+}
+
+/*detail*/
+.akitennisclass191 {
+    margin: 0 0 30px 0;
+    padding: 0 0 3% 0;
+}
+
+.akitennisclass123 {
+    background: url(../images/det_bg.jpg) center/cover no-repeat;
+    padding: 3% 0 1px 0;
+    margin: 0 0 2.5% 0;
+}
+
+.akitennisclass139 {
+    width: 50%;
+    margin: 0 3% 0 0;
+    padding: 0 3% 0 0;
+    border-right: 1px solid #e5e5e5;
+    float: left;
+}
+
+.akitennisclass140 {
+    width: 47%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.akitennisclass102 {
+    width: 40%;
+    max-width: 200px;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.akitennisclass167 {
+    padding: 6% 2%;
+    text-align: center;
+}
+
+.akitennisclass167 img {
+    max-width: 250px;
+}
+
+.akitennisclass141 {
+    padding: 0 0 25px 0;
+}
+
+.akitennisclass60 {
+    border-bottom: 1px solid #e12632;
+    line-height: 1em;
+}
+
+.akitennisclass60 span {
+    font-size: 1.9rem;
+    line-height: 1em;
+    padding: 8px 10px;
+    display: table;
+}
+
+.akitennisclass29 {
+    font-size: 6rem;
+    line-height: 1.2em;
+    display: table;
+    margin: auto;
+    padding: 15px 0;
+}
+
+.akitennisclass86 {
+    font-size: 0.4em;
+    display: inline-block;
+    line-height: 0.3em;
+}
+
+.akitennisclass80 {
+    display: block;
+    text-align: right;
+    line-height: 1em;
+    font-weight: 400;
+    font-size: 0.3em;
+}
+
+.akitennisclass53 {
+    display: table;
+    margin: auto;
+}
+
+.akitennisclass53 li {
+    font-size: 1.2rem;
+    line-height: 1.3em;
+    margin: 0 0 7px 0;
+    text-indent: -1em;
+    padding: 0 0 0 1em;
+}
+
+.akitennisclass142 {
+    padding: 10px 15px;
+}
+
+.akitennisclass100 {
+    font-size: 2.8rem;
+    line-height: 50px;
+    min-height: 50px;
+    float: left;
+}
+
+.akitennisclass69 {
+    font-size: 0.6em;
+}
+
+.akitennisclass58 {
+    font-size: 0.4em;
+    letter-spacing: 0em;
+}
+
+.akitennisclass99 {
+    font-size: 4.5rem;
+    line-height: 50px;
+    height: 50px;
+    float: right;
+    text-decoration: line-through;
+}
+
+.det_btn {
+    line-height: 1em;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 20px 10%;
+    width: 80%;
+}
+
+.det_btn a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 28px 14px;
+    box-sizing: border-box;
+}
+
+.det_btn:hover {
+    background: -moz-linear-gradient(60deg, #111, #666);
+    background: -webkit-linear-gradient(60deg, #111, #666);
+    background: linear-gradient(60deg, #111, #666);
+}
+
+.det_btn p {
+    background: url(../images/arrow_w.png) 97% center / 8px no-repeat;
+    text-align: center;
+    padding: 0 12px;
+}
+
+.akitennisclass98 {
+    margin: 0;
+}
+
+.akitennisclass30 {
+    width: 130px;
+    float: left;
+    font-weight: 500;
+    font-size: 2.1rem;
+    line-height: 1em;
+    border-bottom: 1px solid #e12632;
+}
+
+.akitennisclass32 {
+    min-height: 26px;
+    padding: 18px 0;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0 0 0 131px;
+    font-size: 1.8rem;
+    line-height: 26px;
+}
+
+.akitennisclass120 {
+    float: left;
+    height: 26px;
+    width: 40px;
+}
+
+.akitennisclass72 {
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    margin: 0 30px 0 5px;
+}
+
+.akitennisclass4 p:first-child {
+    border-left: 1px solid #e5e5e5;
+}
+
+.akitennisclass4 p {
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    width: 10%;
+    float: left;
+    box-sizing: border-box;
+    border-right: 1px solid #e5e5e5;
+}
+
+.akitennisclass89 {
+    padding: 24px 0 10px 0;
+    float: none;
+    clear: both;
+}
+
+.akitennisclass106 {
+    font-size: 2.1rem;
+    line-height: 1em;
+    padding: 0 0 15px 0;
+}
+
+.akitennisclass20 {
+    width: 180px;
+    float: left;
+}
+
+.akitennisclass143 {
+    min-height: 25px;
+    line-height: 25px;
+    padding: 15px 8px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.sz_b {
+    background: #111;
+    color: #fff;
+}
+
+.akitennisclass218 {
+    background: #e8e8e8;;
+}
+
+.akitennisclass183 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.akitennisclass183 span {
+    font-size: 1.6rem;
+}
+
+.akitennisclass70 {
+    margin: 0 0 0 182px;
+}
+
+.akitennisclass70 li {
+    width: 10%;
+    float: left;
+    padding: 0 0 0 1px;
+    box-sizing: border-box;
+}
+
+.akitennisclass124 {
+    padding: 1.5% 2%;
+}
+
+.akitennisclass51 {
+    width: 31%;
+    margin: 0 3% 0 0;
+    float: left;
+}
+
+.akitennisclass50 {
+    width: 66%;
+    margin: 0;
+    float: left;
+}
+
+.akitennisclass75 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.akitennisclass75 span {
+    font-size: 0.6em;
+    font-weight: 400;
+    display: block;
+    padding: 10px 0 0 0;
+    line-height: 1em;
+}
+
+.akitennisclass49 {
+    width: 32px;
+    float: left;
+    font-size: 3.2rem;
+    line-height: 1em;
+}
+
+.akitennisclass92 {
+    margin: 0 0 0 35px;
+    font-size: 1.7rem;
+    line-height: 1.6em;
+    padding: 6px 0 0 0;
+}
+
+.akitennisclass31 {
+    padding: 8px 0;
+}
+
+/*company*/
+.akitennisclass186 {
+    padding: 3% 0;
+}
+
+.akitennisclass173 {
+    font-size: 3rem;
+    line-height: 1em;
+    display: table;
+    margin: 0 auto 40px auto;
+    border-bottom: 1px solid #fff;
+    padding: 0 0 15px 0;
+}
+
+.akitennisclass173 span {
+    display: block;
+    text-align: center;
+    line-height: 1em;
+    font-size: 1.3rem;
+    padding: 11px 0 0 0;
+}
+
+.akitennisclass125 {
+    display: table;
+    margin: auto;
+}
+
+.akitennisclass144 {
+    width: 110px;
+    float: left;
+}
+
+.akitennisclass145 {
+    margin: 0 0 0 130px;
+}
+
+.akitennisclass146 {
+    font-size: 2rem;
+    line-height: 1em;
+    padding: 0 0 5px 0;
+}
+
+.cmp_icon {
+    max-width: 800px;
+    border-left: 1px solid #333;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    margin: 25px auto 40px auto;
+}
+
+.cmp_icon a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.cmp_icon li:hover {
+    background: #fff;
+}
+
+.cmp_icon li {
+    width: 25%;
+    border-right: 1px solid #333;
+    box-sizing: border-box;
+    padding: 9px 5px;
+    text-align: center;
+    float: left;
+}
+
+.cmp_icon li img {
+    max-width: 22px;
+    width: 30%;
+}
+
+.akitennisclass101 {
+    font-size: 1.8rem;
+    line-height: 1.4em;
+    padding: 10px 0 20px 0;
+    text-align: center;
+}
+
+.akitennisclass148 {
+    max-width: 800px;
+    margin: auto;
+}
+
+.akitennisclass148 li {
+    width: 100%;
+    margin: 0;
+    float: none;
+    background: #333;
+    padding: 20px 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.akitennisclass148 li:last-child {
+    margin: 0;
+}
+
+.akitennisclass148 p {
+    min-height: 45px;
+    line-height: 45px;
+    text-align: center;
+    padding: 0 0 0 30px;
+    display: table;
+    margin: auto;
+}
+
+.akitennisclass148_tel {
+    font-size: 4.2rem;
+    background: url(../images/ft_tel.png) left center /18px no-repeat;
+}
+
+.akitennisclass26 {
+    font-size: 3rem;
+    background: url(../images/ft_mail.png) left center /18px no-repeat;
+}
+
+/*footer*/
+.akitennisclass175 {
+    padding: 25px 0;
+}
+
+.akitennisclass154 {
+    max-width: 170px;
+    float: left;
+    width: 33%;
+}
+
+.akitennisclass206 {
+    float: right;
+    font-size: 1.15em;
+}
+
+/*modal*/
+.remo_wrap {
+}
+
+.rem_ct_ttl {
+    border: 2px solid #000;
+    padding: 15px 10px;
+    max-width: 320px;
+    margin: 0 auto 50px auto;
+    font-size: 2.4rem;
+    line-height: 1em;
+    text-align: center;
+}
+
+.rem_ct_w {
+    max-width: 800px;
+    margin: auto;
+}
+
+.rem_ct_lead {
+    margin: 0 0 3% 0;
+}
+
+.rem_ct_fmbox {
+    background: #ebeced;
+    padding: 15px;
+    font-size: 1.25rem;
+    line-height: 1.25em;
+    margin: 0 0 8px 0;
+}
+
+.rem_radio1 {
+    width: 48%;
+    margin: 0 4% 0 0;
+    text-align: right;
+    float: left;
+}
+
+.rem_radio2 {
+    width: 48%;
+    text-align: left;
+    float: left;
+}
+
+.rem_fm_ttlw {
+    width: 150px;
+    float: left;
+}
+
+.hissu {
+    background: #e12632;
+}
+
+.nini {
+    background: #a8abaf;
+}
+
+.hisnin {
+    width: 35px;
+    text-align: center;
+    font-weight: 500;
+    height: 16px;
+    line-height: 16px;
+    float: left;
+    margin: 13px 0;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.rem_fm_ttl {
+    margin: 0 0 0 41px;
+    height: 26px;
+    line-height: 26px;
+    padding: 8px 0;
+    font-size: 1.2rem;
+}
+
+.rem_fm_txtin {
+    background: #fff;
+    padding: 8px;
+    margin: 0 0 0 175px;
+}
+
+.rem_fm_txt {
+    min-height: 26px;
+    line-height: 26px;
+    font-size: 1.45rem;
+    border: none;
+    width: 100%;
+    display: block;
+}
+
+.rem_fm_txtarea {
+    min-height: 150px;
+    line-height: 22px;
+    font-size: 1.45rem;
+    border: none;
+    width: 100%;
+    display: block;
+    max-width: 100%;
+}
+
+.rem_fm_ordertxt {
+    text-align: center;
+    line-height: 1.4em;
+    padding: 15px 0 10px 0;
+    font-size: 1.4em;
+}
+
+.rem_fm_od_sex {
+    font-size: 1.9rem;
+    line-height: 1em;
+    border-bottom: 1px solid #d5d5d5;
+    padding: 10px 0;
+}
+
+.rem_fm_od_sex span {
+    font-size: 1.4rem;
+    padding: 0 0 0 10px;
+    font-style: normal;
+}
+
+.rem_fm_order_lot {
+    padding: 15px 0;
+}
+
+.rem_fm_order_lot li {
+    width: 33.3333%;
+    border-right: 1px solid #d5d5d5;
+    padding: 0 10px;
+    float: left;
+    box-sizing: border-box;
+    margin: 0 0 10px 0;
+}
+
+.rem_fm_orderttl {
+    font-size: 1.35rem;
+    font-weight: 500;
+    width: 75px;
+    float: left;
+}
+
+.rem_fm_ordernum {
+    padding: 5px 10px;
+    box-sizing: border-box;
+    margin: 0 0 0 85px;
+    background: #fff;
+}
+
+.rem_fm_od_n_num {
+    background: none;
+    border: none;
+    width: 100%;
+}
+
+.rem_fm_txtadrsin {
+    margin: 0 0 0 175px;
+}
+
+.rem_fm_txtzip {
+    width: 100px;
+    display: block;
+    border: none;
+    padding: 12px;
+    margin: 0 0 4px 0;
+    font-size: 1.45rem;
+}
+
+.pay_radio_b {
+    padding: 5px 0 0 0;
+}
+
+.pay_radio_b li {
+    width: 31.333%;
+    background: #fff;
+    float: left;
+    margin: 0 3% 0 0;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.pay_radio_b li:last-child {
+    margin: 0 !important;
+}
+
+.sbtn {
+    display: block;
+    font-size: 3rem;
+    line-height: 1em;
+    text-align: center;
+    max-width: 300px;
+    margin: 30px auto 10px auto;
+    border: none;
+    padding: 20px 40px;
+    width: 100%;
+}
+
+.rbtn {
+    display: block;
+    font-size: 2rem;
+    line-height: 1em;
+    text-align: center;
+    max-width: 200px;
+    margin: auto;
+    border: none;
+    padding: 10px 40px;
+    width: 100%;
+}
+
+.moda_close2 {
+    margin: 30px 0 0 0;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border: 1px solid #e5e5e5;
+}
+
+.fm_con_logo {
+    max-width: 250px;
+    margin: auto;
+    width: 60%;
+    padding: 10% 0;
+}
+
+.fm_con_msg {
+    text-align: center;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.fm_con_link {
+    padding: 15px 30px;
+    font-size: 1.4rem;
+    text-align: center;
+    display: table;
+    margin: auto;
+}
+
+/*▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲*/
+
+@media screen and (max-width: 1024px) {
+
+    body {
+        padding: 60px 0 0 0;
+    }
+
+    /*header*/
+    .header {
+        padding: 10px 0;
+    }
+
+    .smaller {
+        padding: 12px 0;
+    }
+
+    .akitennisclass213 {
+        width: 130px;
+    }
+
+    .hd_mn {
+        float: left;
+        padding: 5px 0;
+    }
+
+    .hd_mn li {
+        padding: 0 15px 0 0;
+        height: 16px;
+        line-height: 16px;
+        margin: 0 5px 0 0;
+        font-size: 1.1rem;
+    }
+
+    .hd_mail {
+        height: 26px;
+        margin: 5px 0 0 15px;
+        padding: 0 15px;
+    }
+
+    .hd_mail p {
+        line-height: 26px;
+        font-size: 1.25rem;
+        padding: 0 0 0 20px;
+        background: url(../images/icon_mail.png) left center/12px no-repeat;
+    }
+
+    /*cont共通*/
+    .akitennisclass153 {
+        margin: 0 auto 4% auto;
+        padding: 16px 0 0 0;
+        font-size: 5rem;
+    }
+
+    .akitennisclass153 span {
+        font-size: 1.5rem;
+    }
+
+    .akitennisclass185 {
+        padding: 5% 0;
+    }
+
+    /*main*/
+    .akitennisclass166 {
+        margin: 0;
+    }
+
+    .akitennisclass132 {
+        font-size: 8rem;
+    }
+
+    .akitennisclass79 {
+        font-size: 1.8rem;
+        background: url(../images/main_x.png) left center/ 50px no-repeat;
+        padding: 25px 0 25px 60px;
+    }
+
+    .akitennisclass133 {
+        width: 35%;
+        margin: 10px 6% 0 0;
+        float: left;
+    }
+
+    .itrb_txt {
+        width: 59%;
+        float: left;
+    }
+
+    .akitennisclass180 {
+        padding: 5%;
+        width: 100% !important;
+        float: none;
+    }
+
+    .akitennisclass164 {
+        padding: 8% 4%;
+        width: 50% !important;
+    }
+
+    .akitennisclass182 {
+        font-size: 3.2rem;
+    }
+
+    .akitennisclass134 {
+        padding: 11% 9%;
+    }
+
+    /*lineup*/
+    .akitennisclass81 {
+        font-size: 1.9rem;
+    }
+
+    .akitennisclass82 {
+        font-size: 2rem;
+    }
+
+    /*why*/
+    .akitennisclass155 {
+        padding: 4% 3.5%;
+    }
+
+    .akitennisclass156 {
+        font-size: 4.8rem;
+    }
+
+    .akitennisclass121 {
+        font-size: 3.2rem;
+        padding: 7% 0 5% 0;
+    }
+
+    .akitennisclass33 {
+        font-size: 1.7rem;
+    }
+
+    .akitennisclass23 {
+        font-size: 1.35rem;
+        padding: 0 0 15px 22px;
+    }
+
+    .akitennisclass105 {
+        padding: 6.5% 0 0 0;
+    }
+
+    .akitennisclass77 {
+        font-size: 2.4rem;
+    }
+
+    .akitennisclass39 {
+        width: 100%;
+        margin: 0 0 0 0;
+        float: none;
+    }
+
+    .akitennisclass55 {
+        width: 100%;
+        margin: 0 0 30px 0;
+        float: none;
+    }
+
+    .akitennisclass138 {
+        padding: 6% 0;
+    }
+
+    .akitennisclass65 {
+        font-size: 2.4rem;
+    }
+
+    .akitennisclass22 {
+        font-size: 7.5rem;
+        margin: -40px 0 0 -11px;
+    }
+
+    .akitennisclass13 {
+        font-size: 1.8rem;
+        padding: 0 0 12px 0;
+    }
+
+    .akitennisclass59 {
+        margin: 30px 0 0 0;
+        padding: 10px 15px;
+        text-align: center;
+        font-size: 1.45rem;
+    }
+
+    /*detail*/
+    .akitennisclass123 {
+        padding: 5% 0 5px 0;
+    }
+
+    .akitennisclass139 {
+        width: 100%;
+        margin: 0 0 30px 0;
+        padding: 0 0 5% 0;
+        float: none;
+        border-right: none;
+    }
+
+    .akitennisclass140 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        float: none;
+    }
+
+    .akitennisclass167 {
+        width: 47%;
+        margin: 0 6% 0 0;
+        float: left;
+        box-sizing: border-box;
+    }
+
+    .akitennisclass98 {
+        width: 47%;
+        float: left;
+    }
+
+    .akitennisclass60 span {
+        font-size: 1.65rem;
+    }
+
+    .akitennisclass29 {
+        font-size: 5rem;
+    }
+
+    .akitennisclass53 {
+        font-size: 1.2rem;
+        line-height: 1.3em;
+        display: table;
+        margin: auto;
+    }
+
+    .akitennisclass100 {
+        font-size: 2.6rem;
+        line-height: 20px;
+        min-height: 20px;
+        padding: 15px 0;
+        float: none;
+        text-align: center;
+    }
+
+    .akitennisclass99 {
+        font-size: 4rem;
+        line-height: 40px;
+        height: 40px;
+        float: none;
+        padding: 10px 0 0 0;
+        text-align: center;
+        border-top: 1px solid #e12632;
+    }
+
+    .akitennisclass30 {
+        width: 100px;
+        font-size: 1.8rem;
+    }
+
+    .akitennisclass32 {
+        margin: 0 0 0 101px;
+        font-size: 1.7rem;
+    }
+
+    .akitennisclass20 {
+        width: 110px;
+    }
+
+    .akitennisclass70 {
+        margin: 0 0 0 112px;
+    }
+
+    .akitennisclass183 {
+        font-size: 1.75rem;
+    }
+
+    .akitennisclass106 {
+        font-size: 1.8rem;
+    }
+
+    .akitennisclass75 {
+        font-size: 2rem;
+    }
+
+    .akitennisclass92 {
+        font-size: 1.5rem;
+        padding: 7px 0 0 0;
+    }
+}
+
+/*▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲*/
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 48px 0 0 0;
+    }
+
+    .akitennisclass240 {
+        display: none !important;
+    }
+
+    .sp {
+        display: block !important;
+    }
+
+    .akitennisclass227 {
+        padding: 0;
+    }
+
+    /*バーガー*/
+    .burger_out {
+        width: 30px;
+        box-sizing: border-box;
+        margin: 6px 0 0 0;
+        height: 24px;
+        position: absolute;
+        right: 5%;
+        top: 0;
+    }
+
+    .smaller .burger_out {
+    }
+
+    .burger {
+        width: 100%;
+        top: 0;
+    }
+
+    .burger_menu {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 9998;
+        padding: 40px 0 30px 0;
+        left: 0;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.9);
+        box-sizing: border-box;
+        top: 0;
+    }
+
+    .burger_menu li {
+        line-height: 1em;
+        width: 88%;
+        font-size: 1.8em;
+        margin: 0 6%;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        letter-spacing: 0.15em;
+        font-weight: 300;
+        height: 16.66666%;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .burger_menu li a {
+        text-align: center;
+        width: 100%;
+        display: block;
+        padding: 20px 0;
+    }
+
+    .burger_menu li span {
+        display: block;
+        width: 100%;
+    }
+
+    .menu-trigger, .menu-trigger span {
+        display: inline-block;
+        transition: all .4s;
+        box-sizing: border-box;
+    }
+
+    .menu-trigger {
+        top: 50%;
+        z-index: 9999;
+        height: 24px;
+        width: 35px;
+        margin: -12px 0 0 0;
+    }
+
+    .menu-trigger span {
+        width: 100%;
+        height: 1px;
+        background-color: #000;
+        border-radius: 2px;
+    }
+
+    .hd_index .menu-trigger span {
+        background-color: #fff;
+    }
+
+    .menu-trigger span:nth-of-type(1) {
+        top: 0;
+    }
+
+    .menu-trigger span:nth-of-type(2) {
+        top: 12px;
+    }
+
+    .menu-trigger span:nth-of-type(3) {
+        bottom: 0;
+    }
+
+    /*header*/
+    .header {
+        padding: 5px 0;
+    }
+
+    .smaller {
+        padding: 10px 0;
+    }
+
+    .hd_mail {
+        margin: 7px 15px 0 0;
+        padding: 0 20px;
+    }
+
+    /*banner*/
+    .akitennisclass188 {
+        padding: 0;
+    }
+
+    /*cont共通*/
+    .akitennisclass153 {
+        margin: 0 auto 5% auto;
+        padding: 16px 0 0 0;
+        font-size: 4.5rem;
+    }
+
+    .akitennisclass185 {
+        padding: 6% 0 7% 0;
+    }
+
+    .akitennisclass130 {
+        border-top: 7px solid #fff;
+    }
+
+    .akitennisclass131 {
+        border-top: 7px solid #111;
+    }
+
+    /*main*/
+    .akitennisclass210 {
+        background: url(../images/main_bg.jpg) 85% center/cover no-repeat;
+        padding: 6% 0 14% 0;
+    }
+
+    .akitennisclass103 {
+        left: -30px;
+    }
+
+    .akitennisclass128 {
+        max-width: 700px;
+        width: 35%;
+        float: none;
+    }
+
+    .akitennisclass132 {
+        float: none;
+        font-size: 14vw;
+        margin: -15% 0 0 0;
+    }
+
+    .akitennisclass79 {
+        font-size: 1.7rem;
+        background: url(../images/main_x.png) left center/ 50px no-repeat;
+        padding: 15px 0 15px 60px;
+    }
+
+    .akitennisclass200 {
+        margin: -10% 0 4% 0;
+    }
+
+    .akitennisclass129 {
+        font-size: 2.8rem;
+    }
+
+    .akitennisclass127 {
+        font-size: 1.4rem;
+    }
+
+    .akitennisclass177 {
+        padding: 0 0 10% 0;
+    }
+
+    .akitennisclass182 {
+        font-size: 2.8rem;
+    }
+
+    .akitennisclass162 {
+        text-align: left;
+        margin: 0 0 6% 0;
+    }
+
+    .akitennisclass161 {
+        font-size: 1.9rem;
+        margin: 0 0 15px 0;
+    }
+
+    .akitennisclass163 {
+        font-size: 5rem;
+        top: -35px;
+    }
+
+    /*lineup*/
+    .akitennisclass81 {
+        font-size: 1.6rem;
+    }
+
+    .akitennisclass82 {
+        font-size: 1.5rem;
+    }
+
+    /*scene*/
+    .scne_box {
+        border-left: none;
+    }
+
+    .scne_box li {
+        border-right: none;
+        border-bottom: 1px solid #e5e5e5;
+        width: 100%;
+        float: none;
+        padding: 5% 0;
+    }
+
+    .scne_box li:last-child {
+        border: none;
+        padding: 4% 0 0 0;
+    }
+
+    .akitennisclass62 {
+        margin: 0;
+        width: 200px;
+        float: left;
+    }
+
+    .scne_b_txt {
+        margin: 0 0 0 220px;
+    }
+
+    .akitennisclass93 {
+        font-size: 1.6rem;
+        line-height: 1em;
+        margin: 0 0 20px 0;
+        text-align: center;
+    }
+
+    .akitennisclass93 span {
+        display: table;
+        text-align: center;
+        font-size: 2.8rem;
+        line-height: 1em;
+        padding: 0 0 8px 0;
+        margin: 0 auto 8px auto;
+        border-bottom: 1px solid #e12632;
+    }
+
+    .akitennisclass93 {
+        margin: 0 auto;
+        font-size: 1.5rem;
+    }
+
+    .akitennisclass93 span {
+        font-size: 2.4rem;
+    }
+
+    /*why*/
+    .akitennisclass156 {
+        font-size: 4rem;
+    }
+
+    .akitennisclass121 {
+        font-size: 2.8rem;
+    }
+
+    .akitennisclass155 {
+        padding: 7% 5%;
+        margin: -6px 0 3% 0;
+    }
+
+    .akitennisclass35 {
+        width: 100%;
+        margin: 0;
+        float: none;
+    }
+
+    .akitennisclass24 {
+        width: 80%;
+        margin: 0 auto 30px auto;
+        float: none;
+        max-width: 550px;
+    }
+
+    .akitennisclass33 {
+        font-size: 1.9rem;
+    }
+
+    .akitennisclass23 {
+        font-size: 1.55rem;
+        padding: 0 0 15px 26px;
+    }
+
+    .akitennisclass105 {
+        padding: 8% 0 0 0;
+    }
+
+    .akitennisclass44 {
+        margin: 0 0 4.5% 0;
+    }
+
+    .akitennisclass77 {
+        font-size: 2.3rem;
+        padding: 10px 40px;
+    }
+
+    .akitennisclass73 li {
+        width: 100%;
+        float: none;
+        padding: 0 0 4% 0;
+        margin: 0 0 4% 0;
+        border-right: none;
+        border-bottom: 1px solid #e5e5e5;
+    }
+
+    .akitennisclass73 li:last-child {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+
+    .akitennisclass39 {
+        width: 55%;
+        margin: 0 5% 0 0;
+        float: right;
+    }
+
+    .akitennisclass55 {
+        width: 40%;
+        margin: 0;
+        float: right;
+        text-align: center;
+    }
+
+    .akitennisclass137 {
+        background: url(../images/why_triangle.png) center top/190px no-repeat;
+    }
+
+    .akitennisclass116 {
+        font-size: 2.6rem;
+    }
+
+    .akitennisclass115 {
+        padding: 0;
+    }
+
+    .akitennisclass138 {
+        padding: 8% 0;
+    }
+
+    .akitennisclass71 {
+        width: 100%;
+        float: left;
+        margin: 0 0 30px 0;
+        height: 42vw;
+    }
+
+    .akitennisclass41 {
+        width: 100%;
+        float: none;
+    }
+
+    .akitennisclass66 {
+        padding: 0 0 15px 0;
+    }
+
+    .akitennisclass108 li {
+        width: 100%;
+        margin: 0 0 3.5% 0;
+        float: none;
+        padding: 3%;
+    }
+
+    .akitennisclass108 li:nth-child(even) {
+        margin: 0 0 3.5% 0;
+    }
+
+    /*detail*/
+    .akitennisclass123 {
+        padding: 6% 0 1px 0;
+        margin: 0 0 3.5% 0;
+    }
+
+    .akitennisclass141 {
+        padding: 0 0 15px 0;
+    }
+
+    .akitennisclass60 span {
+        font-size: 1.45rem;
+    }
+
+    .akitennisclass29 {
+        font-size: 5vw;
+    }
+
+    .akitennisclass100 {
+        font-size: 2.2rem;
+    }
+
+    .akitennisclass30 {
+        width: 80px;
+        font-size: 1.5rem;
+    }
+
+    .akitennisclass32 {
+        margin: 0 0 0 81px;
+        font-size: 1.6rem;
+        min-height: 22px;
+        line-height: 22px;
+        padding: 12px 0;
+    }
+
+    .akitennisclass120 {
+        float: left;
+        height: 22px;
+        width: 30px;
+    }
+
+    .akitennisclass72 {
+        float: left;
+        height: 22px;
+        line-height: 22px;
+        margin: 0 20px 0 5px;
+    }
+
+    .akitennisclass4 p {
+        height: 22px;
+        line-height: 22px;
+        text-align: center;
+        width: 10%;
+        float: left;
+        box-sizing: border-box;
+        border-right: 1px solid #e5e5e5;
+    }
+
+    .akitennisclass20 {
+        width: 100%;
+        float: none;
+        margin: 0 0 5px 0;
+    }
+
+    .akitennisclass70 {
+        margin: 0;
+    }
+
+    .akitennisclass106 {
+        font-size: 1.5rem;
+    }
+
+    .akitennisclass124 {
+        padding: 4%;
+    }
+
+    .akitennisclass51 {
+        width: 100%;
+        margin: 0 0 20px 0;
+        float: none;
+    }
+
+    .akitennisclass50 {
+        width: 100%;
+        float: none;
+    }
+
+    /*company*/
+    .akitennisclass186 {
+        padding: 5% 0;
+    }
+
+    .akitennisclass173 {
+        font-size: 2.7rem;
+    }
+
+    .akitennisclass144 {
+        width: 90px;
+        float: left;
+    }
+
+    .akitennisclass145 {
+        margin: 0 0 0 110px;
+    }
+
+    .cmp_icon {
+        margin: 25px auto;
+    }
+
+    .akitennisclass148_tel {
+        font-size: 3.2rem;
+    }
+
+    .akitennisclass26 {
+        font-size: 2.4rem;
+    }
+
+    .rem_fm_ttlw {
+        width: 130px;
+    }
+
+    .rem_fm_txtin {
+        margin: 0 0 0 140px;
+    }
+
+    .rem_fm_txtadrsin {
+        margin: 0 0 0 140px;
+    }
+
+    .rem_fm_ttl {
+        font-size: 1.1rem;
+    }
+
+    .hisnin {
+        width: 25px;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .rem_fm_ttl {
+        margin: 0 0 0 30px;
+    }
+
+    .fm_con_logo {
+        padding: 15% 0;
+    }
+}
+
+/*▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲*/
+
+@media screen and (max-width: 600px) {
+    .akitennisclass190 {
+        display: none;
+    }
+
+    .akitennisclass203 {
+        display: block !important;
+    }
+
+    .akitennisclass224 {
+        font-size: 1.2rem;
+    }
+
+    .akitennisclass234 {
+        font-size: 1.3rem;
+    }
+
+    .akitennisclass233 {
+        font-size: 1.4rem;
+    }
+
+    .akitennisclass232 {
+        font-size: 1.5rem;
+    }
+
+    .f17 {
+        font-size: 1.6rem;
+    }
+
+    .akitennisclass228 {
+        font-size: 1.7rem;
+    }
+
+    .f19 {
+        font-size: 1.8rem;
+    }
+
+    .in {
+        padding: 0 3.5%;
+    }
+
+    /*cont共通*/
+    .akitennisclass153 {
+        margin: 0 auto 10% auto;
+        padding: 12px 0 0 0;
+        font-size: 11vw;
+    }
+
+    .akitennisclass153 span {
+        font-size: 1.2rem;
+    }
+
+    .akitennisclass185 {
+        padding: 10% 0 10% 0;
+    }
+
+    .akitennisclass130 {
+        border-top: 5px solid #fff;
+    }
+
+    .akitennisclass131 {
+        border-top: 5px solid #111;
+    }
+
+    /*header*/
+    .akitennisclass213 {
+        width: 110px;
+    }
+
+    .hd_mail {
+        padding: 0 11px;
+    }
+
+    .hd_mail p {
+        padding: 0 0 0 16px;
+        background: url(../images/icon_mail.png) left center/11px no-repeat;
+    }
+
+    /*main*/
+    .akitennisclass210 {
+        padding: 4% 0 10% 0;
+    }
+
+    .akitennisclass103 {
+        left: -60px;
+    }
+
+    .akitennisclass128 {
+        width: 40%;
+    }
+
+    .akitennisclass79 {
+        font-size: 1.3rem;
+        background: url(../images/main_x_sp.png) left center/ 40px no-repeat;
+        padding: 10px 0 10px 50px;
+        font-weight: 600;
+    }
+
+    .akitennisclass133 {
+        width: 100%;
+        margin: 0 0 15px 0;
+        float: none;
+    }
+
+    .akitennisclass200 {
+        padding: 0;
+        margin: -2px 0 8% 0;
+    }
+
+    .akitennisclass180 {
+        padding: 7% 5%;
+    }
+
+    .itrb_txt {
+        width: 100%;
+        float: none;
+    }
+
+    .akitennisclass129 {
+        font-size: 5.5vw;
+        margin: 0 0 10px 0;
+    }
+
+    .akitennisclass127 {
+        font-size: 1.25rem;
+        font-weight: 500;
+    }
+
+    .akitennisclass127 {
+        font-size: 1.4rem;
+    }
+
+    .akitennisclass164 {
+        padding: 7% 3%;
+    }
+
+    .akitennisclass177 {
+        padding: 0 0 12% 0;
+    }
+
+    .akitennisclass182 {
+        font-size: 2.4rem;
+    }
+
+    .p3_box li {
+        width: 100%;
+        float: none;
+        margin: 0 0 2% 0;
+        background: #fff;
+    }
+
+    .akitennisclass134 {
+        padding: 9% 7% 7% 7%;
+    }
+
+    .akitennisclass161 {
+        font-size: 2rem;
+    }
+
+    .akitennisclass163 {
+        font-size: 7rem;
+        top: -45px;
+    }
+
+    .akitennisclass160 {
+        height: 50vw;
+    }
+
+    /*lineup*/
+    .akitennisclass205, .akitennisclass221 {
+        width: 100%;
+        float: none;
+    }
+
+    .akitennisclass205 {
+        margin: 0 0 50px 0;
+        padding: 0 5%;
+    }
+
+    .akitennisclass221 {
+        padding: 0 5%;
+    }
+
+    .akitennisclass118, .akitennisclass117 {
+        height: 40vw;
+    }
+
+    .akitennisclass135, .akitennisclass136 {
+        float: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    /*scene*/
+    .scne_box li {
+        padding: 6% 0;
+    }
+
+    .akitennisclass62 {
+        width: 100px;
+    }
+
+    .scne_b_txt {
+        margin: 0 0 0 120px;
+    }
+
+    .akitennisclass93 {
+        font-size: 1.2rem;
+    }
+
+    .akitennisclass93 span {
+        font-size: 1.9rem;
+    }
+
+    /*why*/
+    .akitennisclass156 {
+        font-size: 8.5vw;
+    }
+
+    .akitennisclass56 {
+        background: url(../images/grd_h_bg.png) center bottom/ 100% 18px no-repeat;
+    }
+
+    .akitennisclass97 p {
+        font-size: 1.55rem !important;
+    }
+
+    .akitennisclass121 {
+        font-size: 2.25rem;
+        padding: 9% 0 7% 0;
+    }
+
+    .akitennisclass33 {
+        font-size: 1.7rem;
+    }
+
+    .akitennisclass23 {
+        font-size: 1.25rem;
+        padding: 0 0 15px 22px;
+    }
+
+    .akitennisclass43 {
+        font-size: 1.3rem;
+    }
+
+    .akitennisclass36 li {
+        font-size: 1.15rem;
+    }
+
+    .akitennisclass105 {
+        padding: 11% 0 0 0;
+    }
+
+    .akitennisclass44 {
+        margin: 0 0 7% 0;
+    }
+
+    .akitennisclass77 {
+        font-size: 2.1rem;
+        padding: 10px 20px;
+    }
+
+    .akitennisclass73 li {
+        padding: 0 0 8% 0;
+        margin: 0 0 8% 0;
+    }
+
+    .akitennisclass40 {
+        font-size: 1.7rem;
+        line-height: 1.3em;
+        margin: 0 0 10px 0;
+    }
+
+    .akitennisclass16 {
+        width: 100%;
+        margin: 0 0 15px 0;
+        float: none;
+        text-align: center;
+    }
+
+    .akitennisclass16 img {
+        max-width: 250px;
+    }
+
+    .akitennisclass16 p {
+        text-align: left;
+    }
+
+    .akitennisclass9 {
+        width: 100%;
+        float: none;
+    }
+
+    .akitennisclass138 {
+        padding: 10% 0;
+    }
+
+    .akitennisclass22 {
+        font-size: 5.5rem;
+        margin: -30px 0 0 -11px;
+    }
+
+    .akitennisclass65 {
+        font-size: 2.1rem;
+    }
+
+    .akitennisclass13 {
+        font-size: 1.65rem;
+        padding: 0 0 12px 0;
+    }
+
+    .akitennisclass38 {
+        width: 100%;
+        float: none;
+        margin: 0 0 10px 0;
+    }
+
+    .akitennisclass54 {
+        margin: 0 auto 10px auto;
+        max-width: 400px;
+    }
+
+    .akitennisclass25 {
+        width: 100%;
+        float: none;
+    }
+
+    .akitennisclass108 li {
+        padding: 4%;
+    }
+
+    /*detail*/
+    .akitennisclass123 {
+        padding: 9% 0 1px 0;
+        margin: 0 0 5% 0;
+    }
+
+    .akitennisclass167 {
+        width: 100%;
+        margin: 0;
+        float: none;
+        text-align: center;
+    }
+
+    .akitennisclass102 img {
+        width: 100% !important;
+    }
+
+    .akitennisclass167 img {
+        max-width: 180px;
+        width: 70%;
+    }
+
+    .akitennisclass98 {
+        width: 100%;
+        float: none;
+    }
+
+    .akitennisclass29 {
+        font-size: 11vw;
+    }
+
+    .akitennisclass60 span {
+        font-size: 1.7rem;
+    }
+
+    .akitennisclass30 {
+        width: 64px;
+        font-size: 1.25rem;
+    }
+
+    .akitennisclass32 {
+        margin: 0 0 0 65px;
+        font-size: 1.4rem;
+    }
+
+    .akitennisclass70 li {
+        width: 20%;
+        padding: 0 0 0 1px;
+        margin: 0 0 8px 0;
+    }
+
+    .akitennisclass143 {
+        min-height: 20px;
+        line-height: 20px;
+        padding: 13px 5px;
+    }
+
+    .akitennisclass106 {
+        font-size: 1.25rem;
+    }
+
+    .akitennisclass124 {
+        padding: 6% 4.5%;
+    }
+
+    /*company*/
+    .akitennisclass186 {
+        padding: 8% 0;
+    }
+
+    .akitennisclass173 {
+        font-size: 2.4rem;
+    }
+
+    .akitennisclass144 {
+        width: 100px;
+        float: none;
+        margin: auto;
+        padding: 0 0 15px 0;
+    }
+
+    .akitennisclass145 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .akitennisclass101 {
+        font-size: 1.65rem;
+    }
+
+    .cmp_icon {
+        margin: 15px auto;
+    }
+
+    .akitennisclass148 li {
+        width: 100%;
+        margin: 0 0 5px 0;
+        float: none;
+        padding: 15px 10px;
+    }
+
+    /*footer*/
+    .akitennisclass175 {
+        padding: 15px 0;
+    }
+
+    /*ctct*/
+    .rem_ct_ttl {
+        padding: 15px 10px;
+        margin: 50px auto 30px auto;
+        font-size: 2rem;
+    }
+
+    .rem_fm_ttlw {
+        width: 100%;
+        float: none;
+        margin: 0 0 5px 0;
+    }
+
+    .rem_fm_txtin {
+        margin: 0;
+        clear: both
+    }
+
+    .rem_fm_txtadrsin {
+        margin: 0;
+        clear: both;
+    }
+
+    .rem_ct_fmbox {
+        padding: 9px;
+    }
+
+    .hisnin {
+        float: left;
+        margin: 4px 0;
+    }
+
+    .rem_fm_ttl {
+        height: 20px;
+        line-height: 20px;
+        padding: 2px 0;
+    }
+
+    .rem_fm_order_lot li {
+        width: 50%;
+    }
+
+    .rem_fm_orderttl {
+        font-size: 1.15rem;
+        width: 55px;
+    }
+
+    .rem_fm_ordernum {
+        padding: 5px;
+        margin: 0 0 0 60px;
+    }
+
+    .rem_fm_txtin {
+        padding: 4px 8px;
+    }
+
+    .rem_fm_txt {
+        min-height: 22px;
+        line-height: 22px;
+    }
+
+    .rem_fm_txtzip {
+        padding: 5px 8px;
+    }
+
+    .pay_radio_b li {
+        width: 100%;
+        margin: 0 0 1px 0;
+        padding: 10px;
+    }
+
+    .fm_con_logo {
+        padding: 20% 0;
+    }
+
+    .fm_con_msg {
+        font-size: 1.7rem;
+    }
+}
