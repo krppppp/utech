@@ -874,7 +874,9 @@ a, a:hover {
 }
 
 .akitennisclass85 {
+
     padding: 0 0 2% 0;
+    width: 95%;
 }
 
 .akitennisclass24 {
@@ -884,7 +886,8 @@ a, a:hover {
 }
 
 .akitennisclass35 {
-    width: 43%;
+    /*width: 43%;*/
+    width: 100%;
     margin: 0 0 0 4%;
     float: left;
 }
@@ -966,19 +969,19 @@ a, a:hover {
 }
 
 .akitennisclass73 li {
-    width: 32.666%;
+    width: 48%;
     float: left;
     padding: 0 2% 0 0;
     margin: 0 2% 0 0;
     border-right: 1px solid #e5e5e5;
 }
 
-.akitennisclass73 li:last-child {
+/*.akitennisclass73 li:last-child {
     width: 30.666%;
     padding: 0;
     margin: 0;
     border: none;
-}
+}*/
 
 .akitennisclass39 {
     width: 55%;
@@ -1039,7 +1042,7 @@ a, a:hover {
 }
 
 .akitennisclass115 {
-    max-width: 600px;
+    max-width: 646px;
     margin: auto;
     padding: 0;
 }
@@ -1061,15 +1064,15 @@ a, a:hover {
 }
 
 .akitennisclass114 {
-    background: url(../images/why_mn.jpg) center/cover no-repeat;
+    background: url(../images/shutterstock_613464041-min.jpg) center/cover no-repeat;
 }
 
 .akitennisclass113 {
-    background: url(../images/why_wmn.jpg) center/cover no-repeat;
+    background: url(../images/shutterstock_748617433-min.jpg) center/cover no-repeat;
 }
 
 .akitennisclass41 {
-    width: 48%;
+    width: 45%;
     float: left;
 }
 
@@ -3230,4 +3233,35 @@ a, a:hover {
     color: #111;
     background: #fff;
     border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+#c3 > div > h3.akitennisclass121.akitennisclass197.akitennisclass239{
+  text-align: center;
+  font-size: 72px;
+  color: #d43942;
+  text-shadow: 2px 2px 2px #230f0f;
+}
+
+.li01 {
+    background-image: url(../images/shutterstock_227053708-min.jpg);
+}
+
+.li02 {
+    background-image: url(../images/shutterstock_83735944-min.jpg);
+}
+
+.li03 {
+    background-image: url(../images/shutterstock_1031044285-min.jpg);
+}
+
+.li04 {
+    background-image: url(../images/shutterstock_1219475464-min.jpg);
+}
+
+.li05 {
+    background-image: url(../images/shutterstock_1075401557-min.jpg);
+}
+
+.li06 {
+    background-image: url(../images/shutterstock_790399030-min.jpg);
 }
