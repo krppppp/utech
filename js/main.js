@@ -54,7 +54,7 @@ $(function() {
 });
 //burger_menu
 $(function() {
-    var topBtn = $('.side_menu');    
+    var topBtn = $('.side_menu');
     topBtn.hide();
     $(window).scroll(function () {
         if ($(this).scrollTop() > 600) {

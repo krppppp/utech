@@ -1954,7 +1954,7 @@ a, a:hover {
 
     .akitennisclass134 {
         padding: 11% 9%;
-        height: 370px;
+        height: 216px;
     }
 
     /*lineup*/
@@ -3264,4 +3264,32 @@ a, a:hover {
 
 .li06 {
     background-image: url(../images/shutterstock_790399030-min.jpg);
+}
+
+.btn-circle-border-double {
+    display: inline-block;
+    text-decoration: none;
+    color: #fefefe;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    border: double 4px #fefefe;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    transition: .6s;
+    margin-top: 60px;
+}
+
+.btn-circle-border-double:hover {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+}
+
+.contact_text {
+    border: unset;
+    background: #d43b43;
+    color: white;
+    font-size: 20px;
 }

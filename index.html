@@ -16,7 +16,7 @@
     <meta property="og:site_name"images/logos.png">
     <link rel="apple-touch-icon" sizes="180x content="UTECH">
     <meta property="og:image" content="images/logos.png">
-    <link rel="icon" type="image/png" href="180" href="images/utech_logo.png">
+    <link rel="icon" type="image/png" href="images/utech_logo.png">
 
 
     <!--stylesheet-->
@@ -35,6 +35,8 @@
     <script type="text/javascript" src="js/main.js"></script>
 
     <link rel="shortcut icon" href="images/logos.png">
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.2.19.min.js"></script>
+    <script type="text/javascript" src="js/contact.js"></script>
 </head>
 
 <body class="home">
@@ -108,7 +110,7 @@
 
         <div class="akitennisclass177">
             <div class="in fi">
-                <h2 class="akitennisclass182 akitennisclass239">Problem</h2>
+                <h2 class="akitennisclass182 akitennisclass239">Issue</h2>
                 <p class="akitennisclass162 akitennisclass228">こんなお悩みはありませんか？</p>
                 <ul class="p3_box cl">
                     <li class="akitennisclass172">
@@ -980,7 +982,9 @@
                             <p class="rem_fm_ttl">お名前</p>
                         </div>
                         <div class="rem_fm_txtin">
-                            <input type="txt" name="name" value="" class="rem_fm_txt" required>
+                          <input id="name" class="rem_fm_txt" type="text" name="name" type="text" placeholder="お名前">
+                          <!--<input type="txt" name="name" value="" class="rem_fm_txt" required>-->
+                          <span id="error1" class="form-team safe" aria-live="polite"></span>
                         </div>
                     </div>
                     <div class="rem_ct_fmbox cl">
@@ -989,7 +993,19 @@
                             <p class="rem_fm_ttl">メールアドレス</p>
                         </div>
                         <div class="rem_fm_txtin">
-                            <input type="txt" name="mail" value="" class="rem_fm_txt" required>
+                          <input id="mail" class="rem_fm_txt" type="text" name="mail" placeholder="メールアドレス">
+                            <!--<input type="txt" name="mail" value="" class="rem_fm_txt" required>-->
+                            <span id="error2" class="form-team safe" aria-live="polite"></span>
+                        </div>
+                    </div>
+                    <div class="rem_ct_fmbox cl">
+                        <div class="rem_fm_ttlw cl">
+                            <p class="hisnin hissu ma3">必須</p>
+                            <p class="rem_fm_ttl">電話番号</p>
+                        </div>
+                        <div class="rem_fm_txtin">
+                          <input id="tel" class="rem_fm_txt" type="text" name="tel" placeholder="電話番号">
+                          <span id="error3" class="form-team safe" aria-live="polite"></span>
                         </div>
                     </div>
 
@@ -999,12 +1015,21 @@
                             <p class="rem_fm_ttl">お問い合わせ内容</p>
                         </div>
                         <div class="rem_fm_txtin">
-                            <textarea name="mess" class="rem_fm_txtarea"></textarea>
+                          <textarea id="contents" class="rem_fm_txtarea" name="contents" class="fontchange"
+                                                  placeholder="お問い合わせ内容はこちら"></textarea>
+                            <!--<textarea name="mess" class="rem_fm_txtarea"></textarea>-->
+                            <span id="error4" class="form-team safe" aria-live="polite"></span>
                         </div>
                     </div>
-                    <button type="submit" class="sbtn bg_grd45 f_w ls01 fw6 f_it ls007" id="sbtn" name="action"
+                    <div id="button_area" class="clearfix btn-circle-border-double">
+                          <input onClick="uploadFile();" type="button" value="Contact" id="css_button" class="button_right contact_text " style="border: unset; width: 120px;"/>
+                    </div>
+                    <!--<button type="submit" class="sbtn bg_grd45 f_w ls01 fw6 f_it ls007" id="sbtn" name="action"
                             value="post">SEND
-                    </button>
+                    </button>-->
+                    <br>
+                    <br>
+                    <p id="error5" class="form-team safe" aria-live="polite"></p>
                 </form>
             </div>
             <button data-remodal-action="close" class="moda_close2 tr">CLOSE</button>
