@@ -603,11 +603,11 @@ a, a:hover {
 }
 
 .akitennisclass57 {
-    width: 42%;
-    float: left;
-    border-right: 1px solid #fff;
-    margin: 0 6% 0 0;
-    padding: 0 6% 0 0;
+    width: 100%;
+    /*float: left;
+    border-right: 1px solid #fff;*/
+    margin: 0 auto;
+    /*padding: 0 6% 0 0;*/
     max-width: 250px;
 }
 
@@ -1954,7 +1954,7 @@ a, a:hover {
 
     .akitennisclass134 {
         padding: 11% 9%;
-        height: 216px;
+        height: 260px;
     }
 
     /*lineup*/
@@ -2133,6 +2133,27 @@ a, a:hover {
     .akitennisclass92 {
         font-size: 1.5rem;
         padding: 7px 0 0 0;
+    }
+
+    .p3_box li {
+        width: 48%;
+        float: left;
+        margin: 1% 1% 0 0;
+        background: #fff;
+        height: 465px;
+    }
+
+    .p3_box li:nth-child(3) {
+        margin-top: 1%;
+        margin-right: 1%;
+    }
+
+    .scne_box li {
+        border-right: none;
+        border-bottom: 1px solid #e5e5e5;
+        width: 100%;
+        float: none;
+        padding: 5% 0;
     }
 }
 
@@ -2337,7 +2358,7 @@ a, a:hover {
     }
 
     .akitennisclass162 {
-        text-align: left;
+        /*text-align: left;*/
         margin: 0 0 6% 0;
     }
 
@@ -2363,6 +2384,7 @@ a, a:hover {
     /*scene*/
     .scne_box {
         border-left: none;
+        padding: 0 0 40px 0;
     }
 
     .scne_box li {
@@ -2681,6 +2703,19 @@ a, a:hover {
     .fm_con_logo {
         padding: 15% 0;
     }
+
+    .p3_box li {
+        width: 48%;
+        float: left;
+        margin: 1% 1% 0 0;
+        background: #fff;
+        height: 465px;
+    }
+
+    .p3_box li:nth-child(3) {
+        margin-top: 1%;
+        margin-right: 1%;
+    }
 }
 
 /*▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲*/
@@ -2801,6 +2836,7 @@ a, a:hover {
     .itrb_txt {
         width: 100%;
         float: none;
+        text-align: center;
     }
 
     .akitennisclass129 {
@@ -3201,6 +3237,10 @@ a, a:hover {
     .fm_con_msg {
         font-size: 1.7rem;
     }
+
+    .with{
+        height: 257px;
+      }
 }
 
 .under768 {
@@ -3292,4 +3332,8 @@ a, a:hover {
     background: #d43b43;
     color: white;
     font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+
 }

@@ -25,9 +25,9 @@ $(function(){
 $(function(){
   $('.mh2').matchHeight();
 });
-$(function(){
-  $('.p3_box li').matchHeight();
-});
+//$(function(){
+  //$('.p3_box li').matchHeight();
+//});
 $(function(){
   $('.scne_box li').matchHeight();
 });
